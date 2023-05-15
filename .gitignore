@@ -1,0 +1,7 @@
+# Ignore node_modules in frontend
+reactauthentication/node_modules/
+reactauthentication/package-lock.json/
+
+# Ignore node_modules in backend
+backend/node_modules/
+backend/package-lock.json/

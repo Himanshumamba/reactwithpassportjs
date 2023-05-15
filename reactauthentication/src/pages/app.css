@@ -1,0 +1,223 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    height: 50px;
+    background-color: black;
+    color: azure;
+    justify-content: space-around;
+    align-items: center;
+
+
+    
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.card_item{
+    text-decoration: none;
+    color: #000;
+    
+}
+.home{
+    display: flex;
+    padding:5rem 8rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+img.postImage {
+    width: 100%;
+    height: 500px;
+
+}
+.previous {
+    text-decoration: none;
+    position: absolute;
+    top: 5rem;
+    left: 4rem;
+    color: #fff!important;
+    background-color: #000000!important;
+    border: none;
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 2rem;
+    
+  }
+  
+.desc{
+    color: #000;
+}
+.card{
+    width: 30%;
+    
+    padding-bottom: 1.5rem;
+
+}
+.img_post{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+ 
+.logo{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.listitem{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 1rem;
+    font-weight: 500;
+
+
+
+}
+
+.avatar{
+    width: 100%;
+    height: 32px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+}
+.readmore{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgb(23 66 118);
+    color: aliceblue;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.post_item{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.postlongdesc{
+    padding: 2rem;
+     font-size: 18px;
+     line-height: 24px;
+}
+p.postdesc{
+    color: rgb(164, 166, 168);
+    font-size: px;
+
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.loginButton{
+    width: 150px;
+    padding: 15px 25px;
+    border-radius: #fff;
+    color: #fff;    
+    cursor: pointer;
+}
+img.icon {
+    width: 15%;
+
+    margin-right: 1rem;
+   
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 50%;
+    padding: 5rem;
+    background-color: rgb(233, 233, 233);
+}
+.right {
+    display: flex;
+    flex-direction: column;
+  
+}
+input[type="text"]{
+
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+
+}
+.loginButton.google {
+    background-color: red;
+    margin-bottom: 0.2rem;
+  
+}
+.loginButton.facebook {
+    background-color: rgb(31 68 156); color: #fff;
+    margin-bottom: 0.2rem;
+}
+.loginButton.github {
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 0.2rem;
+
+}
+.submit{
+ 
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    background-color: #1f449c;
+    padding: 12px 28px;
+    cursor: pointer;
+
+
+}
+
+h1.login_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.logout{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 600px){
+    .card{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .wrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0;
+        height: 500px;
+    }
+
+}
